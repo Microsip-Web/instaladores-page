@@ -3,6 +3,7 @@ import { Pack2019 } from './packs/pack2019';
 import { Pack2020 } from './packs/pack2020';
 import { Pack2021 } from './packs/pack2021';
 import { Pack2022 } from './packs/pack2022';
+import { Pack2023 } from './packs/pack2023';
 
 // paquetes
 const packs = {
@@ -11,6 +12,7 @@ const packs = {
 	2020: Pack2020,
 	2021: Pack2021,
 	2022: Pack2022,
+	2023: Pack2023,
 };
 
 const packList = document.getElementById('content');
@@ -82,7 +84,7 @@ btnBuscar.addEventListener('click', () => {
 	displayPackContent(selectedPack);
 });
 
-// display pack2022 on load
+// display pack2023 on load
 window.onload = () => {
-	displayPackContent(Pack2022);
+	displayPackContent(Pack2023);
 };

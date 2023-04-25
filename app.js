@@ -3,6 +3,7 @@ import { Pack2019 } from './packs/pack2019';
 import { Pack2020 } from './packs/pack2020';
 import { Pack2021 } from './packs/pack2021';
 import { Pack2022 } from './packs/pack2022';
+import { Pack2023 } from './packs/pack2023';
 
 /**
  * It gets the value of the selected option in the dropdown menu.
