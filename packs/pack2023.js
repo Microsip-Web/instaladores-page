@@ -44,13 +44,13 @@ export const Pack2023 = [
 		frame: 'https://dor1k8lp3ljt2.cloudfront.net/DescargasSoporte/SiCS/2023-sucursal-v2.html',
 	},
 
-	// {
-	// 	packYear: '2022',
-	// 	packImg:
-	// 		'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6307a43837602e23414bc988_api_black_24dp%201.png',
-	// 	packTitle: 'API',
-	// 	frame: 'https://dor1k8lp3ljt2.cloudfront.net/DescargasSoporte/api/api-v2.html',
-	// },
+	{
+		packYear: '2023',
+		packImg:
+			'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6307a43837602e23414bc988_api_black_24dp%201.png',
+		packTitle: 'API',
+		frame: 'https://dor1k8lp3ljt2.cloudfront.net/DescargasSoporte/api/2023-api-v2.html',
+	},
 
 	{
 		packYear: '2023',

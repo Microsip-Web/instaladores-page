@@ -49,7 +49,7 @@ export const Pack2022 = [
 		packImg:
 			'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6307a43837602e23414bc988_api_black_24dp%201.png',
 		packTitle: 'API',
-		frame: 'https://dor1k8lp3ljt2.cloudfront.net/DescargasSoporte/api/api-v2.html',
+		frame: 'https://dor1k8lp3ljt2.cloudfront.net/DescargasSoporte/api/2022-api-v2.html',
 	},
 
 	{
