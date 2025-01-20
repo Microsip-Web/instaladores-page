@@ -11,6 +11,15 @@ export const Pack2024 = [
   {
     packYear: "2024",
     packImg:
+      "https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/62fd1574a682a39ee3c7a2ff_Isotipo.png",
+    packTitle: "Microsip Evaluación",
+    frame:
+      "https://microsip.b-cdn.net/DescargasSoporte/Microsip/2024-eval-bunny.html",
+  },
+
+  {
+    packYear: "2024",
+    packImg:
       "https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6307a4386023e66a9271f402_CEO-M%C3%B3vil.png",
     packTitle: "CEO Móvil",
     frame:
@@ -24,6 +33,15 @@ export const Pack2024 = [
     packTitle: "Sync-e",
     frame:
       "https://microsip.b-cdn.net/DescargasSoporte/Sync/2024-index-bunny.html",
+  },
+
+  {
+    packYear: "2024",
+    packImg:
+      "https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6307a438e5519773791717a0_SyncE.png",
+    packTitle: "Sync-e Evaluación",
+    frame:
+      "https://microsip.b-cdn.net/DescargasSoporte/Sync/2024-eval-index-bunny.html",
   },
 
   {
