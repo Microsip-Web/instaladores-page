@@ -3,14 +3,6 @@ export const Pack2025 = [
     packYear: "2025",
     packImg:
       "https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/62fd1574a682a39ee3c7a2ff_Isotipo.png",
-    packTitle: "Microsip Completo",
-    frame:
-      "https://microsip.b-cdn.net/DescargasSoporte/Completo/2025-index-bunny.html",
-  },
-  {
-    packYear: "2025",
-    packImg:
-      "https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/62fd1574a682a39ee3c7a2ff_Isotipo.png",
     packTitle: "Microsip",
     frame:
       "https://microsip.b-cdn.net/DescargasSoporte/Microsip/2025-bunny.html",
@@ -120,5 +112,13 @@ export const Pack2025 = [
     packTitle: "Servidor de Actualizaciones Automáticas Locales",
     frame:
       "https://microsip.b-cdn.net/DescargasSoporte/SAAL/2025-index-bunny.html",
+  },
+  {
+    packYear: "2025",
+    packImg:
+      "https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/62fd1574a682a39ee3c7a2ff_Isotipo.png",
+    packTitle: "Microsip Completo - Todos los Instaladores",
+    frame:
+      "https://microsip.b-cdn.net/DescargasSoporte/Completo/2025-index-bunny.html",
   },
 ];
