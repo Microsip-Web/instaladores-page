@@ -5,6 +5,7 @@ import { Pack2021 } from './packs/pack2021';
 import { Pack2022 } from './packs/pack2022';
 import { Pack2023 } from './packs/pack2023';
 import { Pack2024 } from './packs/pack2024';
+import { Pack2025 } from './packs/pack2025';
 
 // paquetes
 const packs = {
@@ -15,6 +16,7 @@ const packs = {
 	2022: Pack2022,
 	2023: Pack2023,
   2024: Pack2024,
+  2025: Pack2025,
 };
 
 const packList = document.getElementById('content');
@@ -88,5 +90,5 @@ btnBuscar.addEventListener('click', () => {
 
 // display pack2023 on load
 window.onload = () => {
-	displayPackContent(Pack2024);
+	displayPackContent(Pack2025);
 };
