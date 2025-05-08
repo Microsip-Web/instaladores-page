@@ -124,5 +124,5 @@ btnBuscar.addEventListener("click", () => {
 
 // display pack2023 on load
 window.onload = () => {
-  displayPackContent(Pack2025);
+  displayPackContent(Pack2024);
 };
