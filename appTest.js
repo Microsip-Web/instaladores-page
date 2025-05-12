@@ -87,9 +87,6 @@ const displayPackContent = (pack) => {
           <a href="#faq" class="question-text">
             ¿Qué instalador debo descargar?
           </a>
-          <span class="material-symbols-outlined">
-             help
-          </span>
          </div>
        </div>`
     : `<h2>${pack[0].packYear}</h2>`;
