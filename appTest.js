@@ -85,7 +85,7 @@ const displayPackContent = (pack) => {
          <h2>${pack[0].packYear}</h2>
          <div class="question-text-container">
           <a href="#faq" class="question-text">
-            ¿Qué instalador debo descargar?
+            Conoce las preguntas frecuentes
           </a>
          </div>
        </div>`
