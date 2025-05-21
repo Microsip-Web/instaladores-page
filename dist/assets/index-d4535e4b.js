@@ -26,7 +26,7 @@
          <h2>${a[0].packYear}</h2>
          <div class="question-text-container">
           <a href="#faq" class="question-text">
-            Conoce las preguntas frecuentes
+            ¿Qué instalador debo descargar?
           </a>
          </div>
        </div>`:`<h2>${a[0].packYear}</h2>`,o.innerHTML="",a.forEach(c=>{c.frame?o.innerHTML+=`
