@@ -116,6 +116,14 @@ export const Pack2025 = [
   {
     packYear: "2025",
     packImg:
+      "https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/62fd161df183d85cd5970ef5_backup_white_24dp%201.png",
+    packTitle: "Agente Servidor de Datos",
+    frame:
+      "https://microsip.b-cdn.net/DescargasSoporte/ASD/2025-index-bunny.html",
+  },
+  {
+    packYear: "2025",
+    packImg:
       "https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/62fd1574a682a39ee3c7a2ff_Isotipo.png",
     packTitle: "Microsip Completo - Todos los Instaladores",
     frame:
