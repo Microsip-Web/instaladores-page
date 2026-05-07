@@ -6,6 +6,7 @@ import { Pack2022 } from "./packs/pack2022";
 import { Pack2023 } from "./packs/pack2023";
 import { Pack2024 } from "./packs/pack2024";
 import { Pack2025 } from "./packs/pack2025";
+import { Pack2026 } from "./packs/pack2026";
 
 // paquetes
 const packs = {
@@ -17,6 +18,7 @@ const packs = {
   2023: Pack2023,
   2024: Pack2024,
   2025: Pack2025,
+  2026: Pack2026,
 };
 
 const packList = document.getElementById("content");
@@ -76,20 +78,7 @@ const displayPack = (pack) => {
 // 	});
 // };
 const displayPackContent = (pack) => {
-  // Check if the pack is Pack2025
-  const isPack2025 = pack === Pack2025;
-
-  // Conditionally add the question text only for Pack2025
-  packYear.innerHTML = isPack2025
-    ? `<div class="pack-year-container">
-         <h2>${pack[0].packYear}</h2>
-         <div class="question-text-container">
-          <a href="#faq" class="question-text">
-            ¿Qué instalador debo descargar?
-          </a>
-         </div>
-       </div>`
-    : `<h2>${pack[0].packYear}</h2>`;
+  packYear.innerHTML = `<h2>${pack[0].packYear}</h2>`;
 
   packList.innerHTML = "";
   pack.forEach((packItem) => {
@@ -119,7 +108,7 @@ btnBuscar.addEventListener("click", () => {
   displayPackContent(selectedPack);
 });
 
-// display pack2023 on load
+// display pack2026 on load
 window.onload = () => {
-  displayPackContent(Pack2025);
+  displayPackContent(Pack2026);
 };
