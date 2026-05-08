@@ -17,14 +17,14 @@ export const Pack2026 = [
       "https://microsip.b-cdn.net/DescargasSoporte/Microsip/2026-eval-bunny.html",
   },
 
-  // {
-  //   packYear: "2026",
-  //   packImg:
-  //     "https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/62fd1574a682a39ee3c7a2ff_Isotipo.png",
-  //   packTitle: "Microsip Go",
-  //   frame:
-  //     "https://microsip.b-cdn.net/DescargasSoporte/Microsip/2026Go-bunny.html",
-  // },
+  {
+    packYear: "2026",
+    packImg:
+      "https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/62fd1574a682a39ee3c7a2ff_Isotipo.png",
+    packTitle: "Microsip Go",
+    frame:
+      "https://microsip.b-cdn.net/DescargasSoporte/Microsip/2026Go-bunny.html",
+  },
 
   {
     packYear: "2026",
