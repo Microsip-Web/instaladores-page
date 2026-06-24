@@ -77,6 +77,9 @@ const displayPack = (pack) => {
 // 		}
 // 	});
 // };
+const bustCache = (url) =>
+  `${url}${url.includes("?") ? "&" : "?"}v=${Date.now()}`;
+
 const displayPackContent = (pack) => {
   packYear.innerHTML = `<h2>${pack[0].packYear}</h2>`;
 
@@ -86,7 +89,7 @@ const displayPackContent = (pack) => {
       packList.innerHTML += `
         <div class="pack">
           <div class="pack-download-iframes">
-            <iframe class="frametest" src=${packItem.frame} frameborder="0"></iframe>
+            <iframe class="frametest" src="${bustCache(packItem.frame)}" frameborder="0"></iframe>
           </div>
         </div>
       `;

@@ -22,10 +22,10 @@
         </div>
       </div>
     </div>
-  `},i=a=>{h.innerHTML=`<h2>${a[0].packYear}</h2>`,t.innerHTML="",a.forEach(p=>{p.frame?t.innerHTML+=`
+  `},_=a=>`${a}${a.includes("?")?"&":"?"}v=${Date.now()}`,i=a=>{h.innerHTML=`<h2>${a[0].packYear}</h2>`,t.innerHTML="",a.forEach(p=>{p.frame?t.innerHTML+=`
         <div class="pack">
           <div class="pack-download-iframes">
-            <iframe class="frametest" src=${p.frame} frameborder="0"></iframe>
+            <iframe class="frametest" src="${_(p.frame)}" frameborder="0"></iframe>
           </div>
         </div>
-      `:S(p)})},_=()=>document.getElementById("menuSelector").value,I=document.getElementById("btnBuscar");I.addEventListener("click",()=>{const a=_(),p=w[a];i(p)});window.onload=()=>{i(d)};
+      `:S(p)})},I=()=>document.getElementById("menuSelector").value,z=document.getElementById("btnBuscar");z.addEventListener("click",()=>{const a=I(),p=w[a];i(p)});window.onload=()=>{i(d)};
